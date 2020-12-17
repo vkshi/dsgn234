@@ -1,0 +1,98 @@
+h2 {
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h2 {
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
+
+scroll-container {
+  display: block;
+  text-align: left;
+}
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.container {
+  font-family: 'Baloo 2', cursive;
+  font-size: 24px;
+  width: 100% height: 100px;
+  text-align: justify;
+  padding: 15px;
+  margin: 5px;
+}
+
+scroll-container {
+  display: block;
+  max-width: 100%;
+  scroll-behavior: smooth;
+}
+
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 3em;
+  padding-top: 7vw;
+}
+
+body {
+  font-family: 'Staatliches', cursive;
+  background: linear-gradient(30deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%
+  }
+  100% {
+    background-position: 100%
+  }
+}
